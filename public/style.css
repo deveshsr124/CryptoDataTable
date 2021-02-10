@@ -9,7 +9,7 @@
 body {
   background-color:#1b2635;
 }
-
+/* header starts*/
 header {
   display: flex;
   justify-content: space-evenly;
@@ -141,10 +141,13 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 /*-----*/
+
 .tag {
   font-size: 0.8rem;
 }
+/* header ends */
 
+/* table content*/
 table {
   width: 100%;
   text-align: center;
@@ -169,3 +172,4 @@ th{
   font-size: 1.1rem;
 text-transform: capitalize;
 }
+/* header starts*/
