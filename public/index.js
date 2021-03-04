@@ -1,7 +1,7 @@
 var table=document.getElementById('mytable');
 
 window.addEventListener("load",function getdata(){
-    const proxy=`https://cors-anywhere.herokuapp.com/`;
+    const proxy=`https://mycors-proxy-devesh.herokuapp.com/`;
     const api=`${proxy}https://api.wazirx.com/api/v2/tickers`;
     fetch(api).then(res=>{
         return res.json();
